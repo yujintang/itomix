@@ -1,0 +1,27 @@
+{
+  "name": "itomix",
+  "version": "1.0.0",
+  "description": "常用服务器工具🔧",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "ava": "^0.22.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujintang/itomix.git"
+  },
+  "author": "齐天",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujintang/itomix/issues"
+  },
+  "homepage": "https://github.com/yujintang/itomix#readme"
+}
