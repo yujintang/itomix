@@ -23,7 +23,7 @@ try{
 $ npm install itomix --save
 ```
 
-## [valid content](valid content)
+## [valid content](#valid content)
 
 - [params_valid](#params_valid)
 - [moible_valid](#moible_valid)
@@ -32,7 +32,7 @@ $ npm install itomix --save
 - [number_valid](#number_valid)
 - [idcard_valid](#idcard_valid)
 
-## [tools content](tools content)
+## [tools content](#tools content)
 
 - [random_str](#random_str)
 
