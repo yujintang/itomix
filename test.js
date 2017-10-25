@@ -106,10 +106,10 @@ test('idcard_valid_0', t => {
     })
 });
 
-test('randomString_test', t =>{
+test('random_str_test', t =>{
 
     let len = 6;
-    let result = tools.randomString(len);
+    let result = tools.random_str(len);
     t.true(_.isString(result));
     t.is(result.length, len, '生成长度不一致')
 });

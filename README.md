@@ -23,7 +23,7 @@ try{
 $ npm install itomix --save
 ```
 
-## Valid content
+## [valid content](valid content)
 
 - [params_valid](#params_valid)
 - [moible_valid](#moible_valid)
@@ -32,9 +32,9 @@ $ npm install itomix --save
 - [number_valid](#number_valid)
 - [idcard_valid](#idcard_valid)
 
-## Tools content
+## [tools content](tools content)
 
-- [randomString](#randomString)
+- [random_str](#random_str)
 
 
 ***
@@ -74,11 +74,11 @@ $ npm install itomix --save
 
 ## tools content
 
-### randomString
+### random_str
 **生成随机长度字符串，第一个参数为字符串长度，第二可选参数为随机库，默认为：ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678**
 ```js
-.randomString(6)
+.random_str(6)
 ```
 ```js
-.randomString(4, '1234567890')
+.random_str(4, '1234567890')
 ```
