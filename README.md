@@ -17,7 +17,7 @@ try{
 }
 ```
 
-##Usage
+## Usage
 
 ```console
 $ npm install itomix --save
