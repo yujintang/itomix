@@ -3,12 +3,15 @@
 1. **⚠️该软件验证函数，若验证失败，则throw new Error, 请使用try{}catch(){} 或Promise 的.catch()进行捕获**
 2. **验证部分都可同时验证多个参数。**
 
-##Test syntax
+## Test syntax
 
 ```js
 const ito = require('itomix');
+
 try{
+
   ito.moible_valid('13501212321');
+
 }catch(e){
   console.log('验证失败', e.message)
 }
@@ -72,7 +75,7 @@ $ npm install itomix --save
 ## tools content
 
 ### randomString
-**生成随机长度字符串，第一个参数为字符串长度，第二可选参数为随机库，默认为：“ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678
+**生成随机长度字符串，第一个参数为字符串长度，第二可选参数为随机库，默认为：ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678**
 ```js
 .randomString(6)
 ```
